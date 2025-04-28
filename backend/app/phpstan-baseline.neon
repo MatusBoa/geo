@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Instanceof between float\|null and Brick\\Math\\BigDecimal will always evaluate to false\.$#'
+			identifier: instanceof.alwaysFalse
+			count: 1
+			path: app/Core/Database/Cast/BigDecimalCast.php
